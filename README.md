@@ -1,1 +1,1 @@
-## An accurate WeatherApp fetch though api
+## An accurate WeatherApp, fetch though api.
