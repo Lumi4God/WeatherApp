@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous">
+    </script>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="style22.css" />
+    
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <!-- Color Switcher -->
+    <input type="checkbox" id="switch">
+    <label for="switch"></label>
+    <section class="dark-mode"></section>
+
+    <!-- Weather app-->
+    <div class="con">
+      <input type="search" class="inp" placeholder="Enter City Name" />
+      <button class="btn"><i class="fa fa-search"></i></button>
+
+      <div class="ico">
+        <img class="im" src="" />
+      </div>
+
+      <div class="tp">
+          <span class="tem">--</span>
+          <sup>°C</sup>
+      </div>
+
+      <div class="dis">----</div>
+
+      <div class="ctco">
+        <span class="ct"> -- </span><span>, </span><span class="co">--</span>
+      </div>
+
+      <br /><br />
+
+      <div class="mx">
+        <span class="min">----</span><span>°C/</span
+        ><span class="max">---</span>°C
+      </div>
+
+      <br />
+      <br />
+      
+      <div class="humpre">
+        <span>Humidity: </span>
+        <span class="hum">--</span>%
+        &nbsp;&nbsp;&nbsp;<span>Pressure: </span>
+        <span class="pre">-- </span>&nbsp;hPa
+        <br />
+        <br />
+        <div>Wind: <span class="wind"> --- </span> km/h</div>
+      </div>
+
+        <!--carousel-->
+        <div class="pic-ctn">
+            <img src="img/beach.jpg" alt="" class="pic">
+            <img src="img/dersert.jpeg" alt="" class="pic">
+            <img src="img/Skifahren_Snow-Coach.ch_.jpg" alt="" class="pic">
+            <img src="img/plane.jpg" alt="" class="pic">
+            <img src="img/ship.jpg" alt="" class="pic">
+        </div>
+        
+        <!--footer -->
+        <footer class="icon-wrapper">
+            <a href="https://www.instagram.com/tribe_of_jones/" target="_blank""><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.linkedin.com/in/olumide-jones-ab2031215/" target="_blank""><i class="fab fa-linkedin"></i></a>
+            <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
+            <a href="https://open.spotify.com/artist/3yqkjMHcqHPOqML0JH89mA" target="_blank""><i class="fab fa-spotify"></i></a>
+            <a href="https://www.youtube.com/c/Lumigoodboi" target="_blank""><i class="fab fa-youtube-square"></i></a>
+        </footer>
+   
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
